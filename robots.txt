@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://huisartskoenvandewalle.be/sitemap.xml
+Sitemap: https://huisartskoenvandewalle.com/sitemap.xml
