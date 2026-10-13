@@ -3,10 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dr. Koen Vandewalle — Huisarts & Natuurgeneeskunde Brugge</title>
-<meta name="description" content="Huisarts in Sint-Kruis Brugge die klassieke geneeskunde combineert met natuurgeneeskunde en de Mayrkuur. Preventie vanuit voeding, gezondheid en een positieve mindset.">
-<meta property="og:title" content="Dr. Koen Vandewalle — Gezondheid begint lang vóór ziekte">
-<meta property="og:description" content="Huisarts & natuurgeneeskunde in Brugge. Preventie vanuit voeding, beweging, rust en een positieve mindset — en de Mayrkuur aan zee in De Haan.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="geo.region" content="BE-VWV">
+<meta name="geo.placename" content="Sint-Kruis, Brugge">
+<title>Huisarts Brugge (Sint-Kruis) | Dr. Koen Vandewalle — natuurgeneeskunde &amp; Mayrkuur</title>
+<meta name="description" content="Huisarts in Brugge (Sint-Kruis): Dr. Koen Vandewalle combineert klassieke geneeskunde met natuurgeneeskunde en vastenkuren (Mayrkuur). Huisartspraktijk De Wingerd, Bisschopsdreef 23. Tel. 050 35 08 07.">
+<meta property="og:title" content="Huisarts Brugge — Dr. Koen Vandewalle, huisartspraktijk De Wingerd">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_BE">
+<meta property="og:description" content="Integrale zorg voor lichaam, ziel en geest. Huisarts in Sint-Kruis, Brugge, met natuurgeneeskunde en Mayrkuren aan zee.">
 <meta property="og:image" content="https://huisartskoenvandewalle.com/img/hero.jpg">
 <meta property="og:url" content="https://huisartskoenvandewalle.com/">
 <link rel="canonical" href="https://huisartskoenvandewalle.com/">
@@ -16,15 +21,47 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Physician",
-  "url": "https://huisartskoenvandewalle.com/",
-  "name": "Dr. Koen Vandewalle",
-  "description": "Huisarts met natuurgeneeskunde en Mayrkuren",
-  "medicalSpecialty": "PrimaryCare",
-  "telephone": "+3250350807",
-  "email": "vandewalleverwimp@hotmail.com",
-  "address": {"@type": "PostalAddress", "streetAddress": "Bisschopsdreef 23", "postalCode": "8310", "addressLocality": "Sint-Kruis, Brugge", "addressCountry": "BE"},
-  "sameAs": ["https://www.mayrkuren.be/"]
+  "@graph": [
+    {
+      "@type": ["Physician", "MedicalClinic", "LocalBusiness"],
+      "@id": "https://huisartskoenvandewalle.com/#praktijk",
+      "name": "Huisartspraktijk De Wingerd — Dr. Koen Vandewalle",
+      "alternateName": ["Dr. Koen Vandewalle", "Huisarts Koen Vandewalle", "Huisarts Brugge Sint-Kruis"],
+      "description": "Huisarts in Sint-Kruis, Brugge, die klassieke geneeskunde combineert met natuurgeneeskunde (holistische of integrale geneeskunde) en vastenkuren zoals de Mayrkuur.",
+      "url": "https://huisartskoenvandewalle.com/",
+      "image": "https://huisartskoenvandewalle.com/img/hero.jpg",
+      "logo": "https://huisartskoenvandewalle.com/img/hero.jpg",
+      "medicalSpecialty": ["PrimaryCare", "GeneralPractice"],
+      "isAcceptingNewPatients": true,
+      "telephone": "+3250350807",
+      "email": "vandewalleverwimp@hotmail.com",
+      "priceRange": "€",
+      "address": {"@type": "PostalAddress", "streetAddress": "Bisschopsdreef 23", "postalCode": "8310", "addressLocality": "Brugge", "addressRegion": "West-Vlaanderen", "addressCountry": "BE"},
+      "areaServed": ["Brugge", "Sint-Kruis", "Assebroek", "Sint-Michiels", "Sint-Andries", "Oostkamp", "Damme", "Maldegem"],
+      "contactPoint": [
+        {"@type": "ContactPoint", "telephone": "+3250350807", "contactType": "afspraken", "areaServed": "BE", "availableLanguage": ["nl"], "hoursAvailable": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "12:00"}},
+        {"@type": "ContactPoint", "telephone": "+32493707819", "contactType": "gsm"}
+      ],
+      "employee": [
+        {"@type": "Person", "name": "Dr. Koen Vandewalle", "jobTitle": "Huisarts"},
+        {"@type": "Person", "name": "Dr. Christine Verwimp", "jobTitle": "Arts"}
+      ],
+      "availableService": [
+        {"@type": "MedicalTherapy", "name": "Natuurgeneeskunde"},
+        {"@type": "MedicalTherapy", "name": "Mayrkuur (vastenkuur)", "url": "https://www.mayrkuren.be/"},
+        {"@type": "MedicalTherapy", "name": "Ambulante Mayrkuur thuis"}
+      ],
+      "sameAs": ["https://www.mayrkuren.be/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://huisartskoenvandewalle.com/#website",
+      "url": "https://huisartskoenvandewalle.com/",
+      "name": "Huisarts Koen Vandewalle",
+      "inLanguage": "nl-BE",
+      "publisher": {"@id": "https://huisartskoenvandewalle.com/#praktijk"}
+    }
+  ]
 }
 </script>
 <style>
